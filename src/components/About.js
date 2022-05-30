@@ -27,7 +27,7 @@ const About = () => {
                 Actualmente me encuentro en busca de mi primer empleo a tiempo completo, para poner en práctica todos mis conocimientos y aptitudes además de seguir aprendiendo y creciendo profesionalmente.
               </p>
             </div>
-            <a target='_blank' href='https://wa.me/5491165665131'>
+            <a target='_blank' rel="noopener" href='https://wa.me/5491165665131'>
               <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
                 Contactar
               </button>
