@@ -5,7 +5,7 @@ import Nav from './Nav'
 import NavMobile from './NavMobile'
 import Socials from './Socials'
 
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-awesome-reveal/Fade';
 
 
 

@@ -1,8 +1,8 @@
 import React from 'react'
 
 import Image from '../assets/img/about.webp';
-import Zoom from 'react-reveal/Zoom';
-import Bounce from 'react-reveal/Bounce';
+import Zoom from 'react-awesome-reveal/Zoom';
+import Bounce from 'react-awesome-reveal/Bounce';
 
 const About = () => {
   return (
