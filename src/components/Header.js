@@ -5,10 +5,6 @@ import Nav from './Nav'
 import NavMobile from './NavMobile'
 import Socials from './Socials'
 
-import Fade from 'react-awesome-reveal/Fade';
-
-
-
 const Header = () => {
     const [bg, setBg] = useState(false)
 
@@ -23,7 +19,6 @@ const Header = () => {
         
         <div className='container mx-auto h-full flex items-center justify-between '>
             {/* logo */}
-            <Fade top>
             <a href='#'>
                 <img src={Logo} alt='logo'/>
             </a>
@@ -35,7 +30,6 @@ const Header = () => {
             <div className='hidden lg:block'>
                 <Socials/>
             </div>
-            </Fade>
             {/* navmobile */}
             <div className='lg:hidden'>
                 <NavMobile/>

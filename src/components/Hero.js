@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Fade from 'react-awesome-reveal/Fade';
-
 //import men img
 
 import WomanImg from '../assets/img/banner-woman2.webp'
@@ -14,7 +12,6 @@ const Hero = () => {
       >
         <div className='container mx-auto h-full'>
             <div className='flex items-center h-full pt-8'>
-            <Fade left>
               <div className='flex-1 flex flex-col items-center lg:items-start'>
                 <p className='text-lg text-accent text-md mb-[22px]'>
                   ¡Hola!, Me llamo Fernando Torrez 👋
@@ -33,12 +30,9 @@ const Hero = () => {
                 </a>
                 
               </div>
-              </Fade>
-              <Fade right>
               <div className='hidden lg:flex flex-1 justify-end items-end'>
                 <img className='rounded-full' src={WomanImg}/>
               </div>
-              </Fade>
             </div>
         </div>
     </section>
