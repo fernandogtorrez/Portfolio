@@ -23,7 +23,7 @@ const Hero = () => {
                   Estoy buscando una oportunidad para comenzar mi carrera en tecnología. Disponible para nuevos desafíos.
                   ¡Vamos a trabajar juntos!
                 </p>
-                <a rel="noopener" href='https://drive.google.com/file/d/13K1xJOe5CnzqZxEs4VxhdZ3tKAHV_Wzs/view'>
+                <a target='_blank' href='https://drive.google.com/file/d/13K1xJOe5CnzqZxEs4VxhdZ3tKAHV_Wzs/view'>
                   <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
                     Descargar CV
                   </button>
