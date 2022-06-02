@@ -2,7 +2,7 @@ import React from 'react'
 
 //import men img
 
-import WomanImg from '../assets/img/banner-woman2.webp'
+import PhotoImg from '../assets/img/photohero.webp'
 
 const Hero = () => {
   return (
@@ -31,7 +31,7 @@ const Hero = () => {
                 
               </div>
               <div className='hidden lg:flex flex-1 justify-end items-end'>
-                <img className='rounded-full' src={WomanImg}/>
+                <img className='rounded-full w-200' src={PhotoImg}/>
               </div>
             </div>
         </div>

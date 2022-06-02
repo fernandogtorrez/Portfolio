@@ -6,8 +6,14 @@ const Project = ({ item }) => {
       <div className='mb-8'>
         <img className='rounded-2xl' src={item.image} alt='' />
       </div>
-      <p className='capitalize text-accent text-sm mb-3'>{item.demo}</p>
-      <p className='capitalize text-accent text-sm mb-3'>{item.repo}</p>
+      <div className='flex justify-center gap-5 '>
+        <a target='_blank' href={item.linkdemo}>
+          <p className='capitalize text-accent text-xl mb-3 hover:text-white'>{item.demo}</p>
+        </a>
+        <a target='_blank' href={item.linkrepo}>
+          <p className='capitalize text-accent text-xl mb-3 hover:text-white'>{item.repo}</p>
+        </a>
+      </div>
       <h3 className='text-2xl font-semibold capitalize mb-3'>{item.name}</h3>
       <p className='text-base max-w-md'>
         {item.description}

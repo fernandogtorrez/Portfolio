@@ -15,7 +15,7 @@ const Footer = () => {
             {social.map((item, index) => {
               const { href, icon } = item;
               return (
-                <a className='text-accent text-base' target='_blank' href={href} key={index}>
+                <a className='text-accent hover:text-white' target='_blank' href={href} key={index}>
                   {icon}
                 </a>
               );
@@ -25,7 +25,7 @@ const Footer = () => {
             <img src={Logo} alt='' />
           </div>
           <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; 2022 Fernando Torrez. All rights reserved.
+            &copy; 2022 Fernando Torrez.
           </p>
         </div>
       </div>
