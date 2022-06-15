@@ -99,7 +99,7 @@ export const projectsData = [
     category: 'web development',
     demo: <FaExternalLinkAlt />,
     repo:<FaGithub />,
-    linkdemo:'http://mytinerary-torrez-fernando.herokuapp.com/',
+    linkdemo:'https://mytinerary-torrez-fernando.herokuapp.com/',
     linkrepo:'https://github.com/fernandogtorrez/mytinerary-fernando-torrez',
     description: 'Mi primera aplicación web con React realizada de manera individual haciendo uso de todos los conceptos aprendidos en el Stack MERN.'
   },
